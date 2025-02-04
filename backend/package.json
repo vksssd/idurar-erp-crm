@@ -1,5 +1,5 @@
 {
-  "name": "idurar-erp-crm",
+  "name": "mern-erp-crm",
   "version": "4.1.0",
   "engines": {
     "npm": "10.2.4",
@@ -47,16 +47,5 @@
   "_moduleAliases": {
     "@": "src"
   },
-  "main": "server.js",
-  "author": "IDURAR",
-  "email": "hello@idurarapp.com",
-  "license": "Fair-code License",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/idurar/idurar-erp-crm/.git"
-  },
-  "bugs": {
-    "url": "https://github.com/idurar/idurar-erp-crm//issues"
-  },
-  "homepage": "https://github.com/idurar/idurar-erp-crm/#readme"
-}
+  "main": "server.js"
+  }

@@ -3,11 +3,11 @@
 #### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/idurar/idurar-erp-crm.git
+git clone <github repo link>
 ```
 
 ```bash
-cd idurar-erp-crm
+cd mern-erp-crm
 ```
 
 #### Step 2: Create Your MongoDB Account and Database Cluster
@@ -121,12 +121,8 @@ set NODE_OPTIONS=--openssl-legacy-provider
 $env:NODE_OPTIONS = "--openssl-legacy-provider"
 ```
 
-Here is [reference](https://github.com/webpack/webpack/issues/14532#issuecomment-947012063) about enabling legacy OpenSSL provider
 
-After trying above solutions, run below command
 
 ```bash
 npm run dev
 ```
-
-> If you still facing issue, then follow [this stackoverflow thread](https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported). It has so many different types of opinions. You definitely have solution after going through the thread.
